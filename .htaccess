@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9]+)/?$ connect.php?username=$1 [L,QSA]
